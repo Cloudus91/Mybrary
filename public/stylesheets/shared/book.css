@@ -28,6 +28,10 @@
   display: flex;
 }
 
+.book-section {
+  margin-right: 2rem;
+}
+
 .book-details-label {
   font-size: 1rem;
   font-weight: 500;
@@ -57,4 +61,21 @@
 .book-details-author-button {
   grid-area: author;
   justify-self: stretch;
+}
+
+.book-text {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .book-details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .book-details-btn-grid {
+    margin-bottom: 1.5rem;
+  }
+  .book-section {
+    margin-right: 0;
+  }
 }
