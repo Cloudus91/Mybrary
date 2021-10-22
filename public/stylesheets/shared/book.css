@@ -76,6 +76,10 @@
     margin-bottom: 1.5rem;
   }
   .book-section {
+    justify-content: center;
     margin-right: 0;
+  }
+  .book-cover {
+    margin-left: 0.5rem;
   }
 }

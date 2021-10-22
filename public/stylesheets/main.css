@@ -40,3 +40,9 @@ body {
 .error-message {
   color: hsl(var(--color-danger-hue), 100%, 50%);
 }
+
+@media (max-width: 800px) {
+  .page-header {
+    text-align: center;
+  }
+}
