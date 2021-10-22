@@ -79,3 +79,22 @@
 .filepond--drop-label {
   color: var(--color-text-light);
 }
+
+@media (max-width: 800px) {
+  .form-row {
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+  }
+  .form-item {
+    margin: 0 0 1rem 0;
+  }
+
+  .form-item-no-grow {
+    align-items: center;
+  }
+
+  .form-row:last-child {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

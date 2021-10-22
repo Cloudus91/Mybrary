@@ -14,12 +14,15 @@
 
 .header-title {
   color: var(--color-text-light);
-  font-size: var(--nav-title-font-size);
-  font-weight: var(--nav-title-font-weight);
   text-decoration: none;
   font-size: var(--nav-title-font-size);
   font-weight: var(--nav-title-font-weight);
   margin: 0.5rem;
+  transition: color 0.3s ease-in;
+}
+
+.header-title:hover {
+  color: white;
 }
 
 .navbar-links {
@@ -57,6 +60,11 @@
   justify-content: space-between;
   width: 30px;
   height: 21px;
+  transition: all 0.3s linear;
+}
+
+.toggle-button:hover {
+  transform: rotate(0.25turn);
 }
 
 .toggle-button .bar {
@@ -84,6 +92,21 @@
   .navbar-links {
     display: none;
     width: 100%;
+  }
+
+  .navbar-links li a {
+    animation: fadeDown 0.7s both;
+  }
+
+  @keyframes fadeDown {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
   }
 
   .navbar-links ul {
