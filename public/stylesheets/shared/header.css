@@ -22,7 +22,7 @@
 }
 
 .header-title:hover {
-  color: white;
+  color: var(--color-text-dark);
 }
 
 .navbar-links {
@@ -49,6 +49,7 @@
 
 .navbar-links li a:hover {
   color: white;
+  color: var(--color-text-dark);
 }
 
 .toggle-button {
@@ -70,7 +71,7 @@
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: white;
+  background-color: var(--color-text-light);
   border-radius: 10px;
 }
 
@@ -81,7 +82,8 @@
   }
 
   .navbar-links li:hover {
-    background-color: var(--color-background-dark);
+    background-color: var(--color-background-light);
+    box-shadow: 1px 1px 1px 1px var(--color-background-dark);
     border-radius: 5px;
   }
 

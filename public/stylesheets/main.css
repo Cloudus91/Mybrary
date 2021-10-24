@@ -19,7 +19,7 @@
 }
 
 body {
-  background: linear-gradient(to right, var(--color-background-dark), var(--color-background-light));
+  background: radial-gradient(circle, var(--color-background-dark) 0%, var(--color-background-light) 100%);
 }
 
 .container {
