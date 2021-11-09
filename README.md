@@ -1,5 +1,5 @@
 # Mybrary
 
-Made with EJS,Css3,Javascript & Node.JS.
+Mybrary thanks to Web Dev Simplified with responsive code.
 
 ![Mybrary](https://media-exp1.licdn.com/dms/image/C562DAQGC6kuyMzx9zA/profile-treasury-image-shrink_1280_1280/0/1635444611725?e=1636567200&v=beta&t=XGJP8QldhQTWL4Bo2kOd3SsF30Hto5yn6j-lTVqUywU)
